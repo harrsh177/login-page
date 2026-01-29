@@ -147,3 +147,14 @@ button:hover {
 height: 42px;
 }
 }
+
+@media (max-width: 480px) {
+    body {
+        align-items: flex-start;   /* center illa */
+        padding-top: 60px;         /* mela irunthu konjam keela */
+    }
+
+    .login-card {
+        margin-top: 20px;
+    }
+}
