@@ -137,6 +137,7 @@ button:hover {
 @media (max-width: 480px) {
     .login-card {
         padding: 25px 20px;
+        margin-top: 20px;
     }
 }
 
@@ -148,13 +149,11 @@ height: 42px;
 }
 }
 
+/* body padding*/
+
 @media (max-width: 480px) {
     body {
-        align-items: flex-start;   /* center illa */
-        padding-top: 60px;         /* mela irunthu konjam keela */
-    }
-
-    .login-card {
-        margin-top: 20px;
+        align-items: flex-start;   
+        padding-top: 60px;         
     }
 }

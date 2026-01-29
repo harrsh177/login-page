@@ -20,15 +20,10 @@
             <h2>Welcome to <span>Guidly</span></h2>
             <p>Your travel companion 🌍</p>
 
-            <form>
+            <form onsubmit="return loginSuccess()">
                 <div class="input-group">
                     <input type="text" required>
                     <label>Name</label>
-                </div>
-
-                <div class="input-group">
-                    <input type="number" required>
-                    <label>Age</label>
                 </div>
 
                 <div class="input-group">
@@ -54,3 +49,10 @@
 
 </body>
 </html>
+
+<script>
+function loginSuccess() {
+    alert("Login successfully ✅ Welcome to Guidly 🌍");
+    return false;
+}
+</script>
