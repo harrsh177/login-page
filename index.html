@@ -32,7 +32,12 @@
                 </div>
 
                 <div class="input-group">
-                    <input type="tel" required>
+                    <input type="tel" 
+                    inputmode="numeric"
+        pattern="[0-9]{10}"
+        maxlength="10"
+        title="Please enter 10 digit mobile number"
+                    required>
                     <label>Mobile Number</label>
                 </div>
 
