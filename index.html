@@ -22,17 +22,22 @@
 
             <form onsubmit="return loginSuccess()" autocomplete="off">
                 <div class="input-group">
-                    <input type="text" required>
+                    <input type="text" 
+                        autocomplete="off"
+                        required>
                     <label>Name</label>
                 </div>
 
                 <div class="input-group">
-                    <input type="text" required>
+                    <input type="text" 
+                        autocomplete="off"
+                        required>
                     <label>Country</label>
                 </div>
 
                 <div class="input-group">
                     <input type="tel" 
+                        autocomplete="off"
                     inputmode="numeric"
         pattern="[0-9]{10}"
         maxlength="10"
@@ -42,7 +47,9 @@
                 </div>
 
                 <div class="input-group">
-                    <input type="email" required>
+                    <input type="email"
+                        autocomplete="off"
+                        required>
                     <label>Email</label>
                 </div>
 
