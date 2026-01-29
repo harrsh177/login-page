@@ -20,7 +20,7 @@
             <h2>Welcome to <span>Guidly</span></h2>
             <p>Your travel companion 🌍</p>
 
-            <form onsubmit="return loginSuccess()">
+            <form onsubmit="return loginSuccess()" autocomplete="off">
                 <div class="input-group">
                     <input type="text" required>
                     <label>Name</label>
@@ -58,6 +58,7 @@
 <script>
 function loginSuccess() {
     alert("Login successfully ✅ Welcome to Guidly 🌍");
+    document.querySelector("form").reset();
     return false;
 }
 </script>
